@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 24a29ba7-4af6-4375-80d8-31525fa34727
+        group: maoze
+        file-extension: yaml
