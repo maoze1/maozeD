@@ -7,7 +7,7 @@ import static java.lang.Thread.sleep;
 
 public class JOLExample2 {
     public static void main(String[] args) throws Exception {
-        sleep(5000);
+//        sleep(5000);
         A a= new A();
         out.println("befor hash");
         //没有计算HASHCODE之前的对象头
@@ -19,5 +19,6 @@ public class JOLExample2 {
         out.println("after hash");
         out.println(ClassLayout.parseInstance(a).toPrintable());
 
+        // cpu 的小端模式  地址是倒叙的
     }
 }

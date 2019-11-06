@@ -15,7 +15,7 @@ public class demo4 {
     /**
      * synchronized
      *  每个对象的 monitor
-     * synchronized(Xxx.class) 和 public synchronized static void some()
+     * synchronized(Xxx.class)
      *    获取的是类的monitor
      * synchronized(this) 和 synchronized 代码块 public synchronized void some()
      *    取的是当前实例的monitor
@@ -32,5 +32,12 @@ public class demo4 {
             count--;
         }
     }
+
+    /**
+     *
+     *  static 和class 的关系？
+     *  static 和jmm 的关系？
+     *
+     * */
 
 }
