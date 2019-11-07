@@ -34,10 +34,8 @@ public class demo4 {
     }
 
     /**
-     *
      *  static 和class 的关系？
      *  static 和jmm 的关系？
-     *
      * */
 
 }

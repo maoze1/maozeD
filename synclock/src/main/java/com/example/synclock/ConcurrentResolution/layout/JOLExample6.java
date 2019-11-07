@@ -19,7 +19,7 @@ public class JOLExample6 {
                 @Override
                 public void run() {
                     while (countDownLatch.getCount() > 0) {
-                        a.parse();
+//                        a.parse();
                     }
                 }
             }.start();

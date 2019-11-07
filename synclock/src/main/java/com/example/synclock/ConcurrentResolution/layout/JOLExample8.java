@@ -17,5 +17,16 @@ public class JOLExample8 {
         }
         out.println("after lock");
         out.println(ClassLayout.parseInstance(a).toPrintable());
+
+
+        B b= new B();
+        out.println("befor lock");
+        out.println(ClassLayout.parseInstance(b).toPrintable());
+        synchronized (b){
+            out.println("lock ing");
+            out.println(ClassLayout.parseInstance(b).toPrintable());
+        }
+        out.println("after lock");
+        out.println(ClassLayout.parseInstance(b).toPrintable());
     }
 }

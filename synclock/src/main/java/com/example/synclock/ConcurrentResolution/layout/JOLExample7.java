@@ -7,7 +7,7 @@ import static java.lang.System.out;
 public class JOLExample7 {
     static A a;
     public static void main(String[] args) throws Exception {
-        //Thread.sleep(5000);
+        Thread.sleep(5000);
         a = new A();
         out.println("befre lock");
         out.println(ClassLayout.parseInstance(a).toPrintable());//无锁

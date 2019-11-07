@@ -8,6 +8,5 @@ package com.example.synclock.ConcurrentResolution.layout;
  * Time: 14:10
  */
 public  class B {
-    public static void B() {
-    }
+
 }
